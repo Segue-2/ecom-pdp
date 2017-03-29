@@ -1,0 +1,15 @@
+{
+  "name": "vpd",
+  "version": "1.0.0",
+  "description": "this is view product details page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack && node dist/server.js",
+    "build": "set NODE_ENV=production && webpack --progress -p && node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
